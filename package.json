@@ -1,0 +1,33 @@
+{
+  "type": "module",
+  "name": "aves-core",
+  "version": "1.0.0",
+  "description": "A trading system for statistical arbitrage.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/jaju0/aves-core"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "keywords": [
+    "arbitrage",
+    "arbitrage api",
+    "statistical arbitrage",
+    "node",
+    "nodejs",
+    "crypto",
+    "cryptocurrency",
+    "bitcoin"
+  ],
+  "author": "jaju0",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "tsup": "^8.2.3",
+    "typescript": "^5.5.4"
+  }
+}
